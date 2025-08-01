@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255,255,255);
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
+    background-image: url("picture/natural.png");
+    align-items: center;
+    justify-content: center;
+}
+
+div.menu {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 1%;
+}
+
+div.timer_top {
+    width: 35%;
+    height: 35px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+
+div.container {
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 10b0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 16px;
+}
